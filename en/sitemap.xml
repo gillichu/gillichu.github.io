@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gillichu.github.io/about/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://gillichu.github.io/pl/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://gillichu.github.io/fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://gillichu.github.io/pt/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gillichu.github.io/about/"
+                />
+  </url>
+  
+  <url>
     <loc>https://gillichu.github.io/tags/covid/</loc>
     <lastmod>2020-06-07T00:00:00+00:00</lastmod>
   </url>
@@ -275,31 +300,6 @@
   <url>
     <loc>https://gillichu.github.io/publications/blockchain/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gillichu.github.io/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://gillichu.github.io/pl/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gillichu.github.io/fr/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://gillichu.github.io/pt/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gillichu.github.io/about/"
-                />
   </url>
   
   <url>
