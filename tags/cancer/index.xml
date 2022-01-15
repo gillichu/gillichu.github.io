@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cancer on Gillian Chu</title>
+    <link>https://gillichu.github.io/tags/cancer/</link>
+    <description>Recent content in cancer on Gillian Chu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gillichu.github.io/tags/cancer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CNAViz</title>
+      <link>https://gillichu.github.io/publications/cnaviz/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gillichu.github.io/publications/cnaviz/</guid>
+      <description>CNAViz: User-guided local and global copy-number segmentation for tumor sequencing data
+(In submission)
+Motivation: Copy-number aberrations (CNA) are genetic alterations that amplify or delete the number of copies of large genomic segments. Although they are ubiquitous in cancer and subsequently a critical area of current cancer research, CNA identification from DNA sequencing data is challenging because it requires partitioning of the genome into complex segments that may not be contiguous. Existing segmentation algorithms address these challenges either by leveraging the local information among neighboring genomic regions, or by globally grouping genomic regions that are affected by similar CNAs across the entire genome.</description>
+    </item>
+    
+  </channel>
+</rss>
