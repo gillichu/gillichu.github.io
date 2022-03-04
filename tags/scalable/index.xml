@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scalable on Gillian Chu</title>
+    <link>https://gillichu.github.io/tags/scalable/</link>
+    <description>Recent content in scalable on Gillian Chu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gillichu.github.io/tags/scalable/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CNAViz</title>
+      <link>https://gillichu.github.io/publications/upp2/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gillichu.github.io/publications/upp2/</guid>
+      <description>Motivation: Multiple sequence alignment (MSA) is a basic step in many bioinformatics pipelines. However, achieving highly accurate alignments on large datasets, especially those with sequence length heterogeneity, is a challenging task. UPP (Ultra-large multiple sequence alignment using Phylogeny-aware Profiles) is a method for MSA estimation that builds an ensemble of Hidden Markov Models (eHMM) to represent an estimated alignment on the full length sequences in the input, and then adds the remaining sequences into the alignment using selected HMMs in the ensemble.</description>
+    </item>
+    
+  </channel>
+</rss>
