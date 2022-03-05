@@ -3,18 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gillichu.github.io/tags/cancer/</loc>
-    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gillichu.github.io/publications/cnaviz/</loc>
-    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gillichu.github.io/</loc>
-    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -64,22 +54,22 @@
   
   <url>
     <loc>https://gillichu.github.io/tags/multiple-sequence-alignment/</loc>
-    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gillichu.github.io/publications/</loc>
-    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gillichu.github.io/tags/scalable/</loc>
-    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gillichu.github.io/tags/</loc>
-    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -129,6 +119,16 @@
   
   <url>
     <loc>https://gillichu.github.io/publications/upp2/</loc>
+    <lastmod>2022-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gillichu.github.io/tags/cancer/</loc>
+    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gillichu.github.io/publications/cnaviz/</loc>
     <lastmod>2022-01-13T00:00:00+00:00</lastmod>
   </url>
   
