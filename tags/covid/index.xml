@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>covid on Gillian Chu</title>
+    <link>https://gillichu.github.io/tags/covid/</link>
+    <description>Recent content in covid on Gillian Chu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gillichu.github.io/tags/covid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shield the Bay</title>
+      <link>https://gillichu.github.io/projects/shield-the-bay/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gillichu.github.io/projects/shield-the-bay/</guid>
+      <description>We provide face shields for Bay Area healthcare workers, focusing on institutions ignored by large- scale sourcing and donation efforts. Face shields are a critical component of personal protective equipment (PPE), providing essential barrier protection from SARS-CoV-2 containing aerosols and droplets for healthcare workers exposed to COVID-19 patients.
+Recognizing the need of these institutions, we launched Shield the Bay in March 2020, crowdfunded $16,000 to provide 20,000 face shields. Our initial partner is Highland Hospital, a county hospital in Oakland and the primary trauma center in Alameda County, with the busiest emergency department in the United States.</description>
+    </item>
+    
+  </channel>
+</rss>

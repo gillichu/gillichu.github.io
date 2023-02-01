@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>Hello! I&#39;m Gillian. - Gillian Chu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="generator" content="Hugo 0.72.0" /><meta itemprop="name" content="Hello! I&#39;m Gillian.">
+<meta itemprop="description" content=""><meta property="og:title" content="Hello! I&#39;m Gillian." />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://gillichu.github.io/" />
+<meta property="og:updated_time" content="2022-02-28T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hello! I&#39;m Gillian."/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@gillianychu"/>
+<link rel="stylesheet" href="/css/bundle.min.759e3848ea529eef056dab665b241e2af569e601ab80f68f8d4a4d002a155dd4.css" integrity="sha256-dZ44SOpSnu8FbatmWyQeKvVp5gGrgPaPjUpNACoVXdQ="><link rel="stylesheet" href="/css/add-on.css">
+</head>
+
+  <head>
+  
+  ...
+ </head>
+  <body>
+    
+
+  <div id="theme-message" style="background-color:#3c3b3b;color:#f4f4f4;margin:auto auto;padding:.25em 2em;width:75%;">
+    <p style="text-align:center;">This message, related to the development of the theme, only displays on the
+      <code>localhost</code> homepage to notify you of any important theme changes.</p>
+      <hr>
+      <h5 style="color:#f4f4f4;text-align:center;"><i class="fas fa-exclamation-triangle"></i>Version 1.1.0 - May 18, 2020<i class="fas fa-exclamation-triangle"></i></h5>
+    <p>With this version, the theme has fully implemented <strong>static search</strong> using
+<code>lunr.js</code>. That being said, a few modifications were necessary to implement this
+feature.</p>
+<p>To utilize this, or future version of <em>Hugo Future Imperfect Slim</em>, please make
+the following changes:</p>
+<ol>
+<li>Add the following to your <code>config.toml</code> before <code>[params]</code>:</li>
+</ol>
+<pre><code>...
+disableLanguages = [&quot;&quot;]
+
+[outputs]
+    home = [&quot;html&quot;, &quot;json&quot;]
+
+[params]
+...
+</code></pre><ol start="2">
+<li>
+<p>Remove the underscore from all <code>about</code> and <code>contact</code> page file names:
+<code>_index.md --&gt; index.md</code></p>
+</li>
+<li>
+<p>Add <code>layout = &quot;about&quot;</code> or <code>layout = &quot;contact&quot;</code> to all of the files you just
+just adjusted the file names for.</p>
+</li>
+</ol>
+<p>While I realize this is inconvenient, I hope that it is worth it to you in the
+long run. Thanks for using the theme, and feel free to submit issues as needed.</p>
+
+    <div style="text-align:center;">
+      <button onclick="removeBox()" class="button" style="color:#f4f4f4;margin-bottom:1em;">Close Notification Until Next Update</button>
+    </div>
+    <script>
+      if (window.location.href.indexOf('localhost:') < 1 || window.localStorage.getItem('HFIS-version') == '1.1.0') {
+        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
+      }
+      function removeBox() {
+        window.localStorage.setItem('HFIS-version', '1.1.0');
+        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
+      }
+    </script>
+  </div>
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/" class="nav">
+        
+          Directory
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          
+            <a href="/" class="nav link"><i class='fa fa-home'></i> Home</a>
+          
+        
+      
+        
+          
+          
+            <a href="/about/" class="nav link"><i class='fa fa-user fa-fw'></i> About</a>
+          
+        
+      
+        
+          
+          
+            <a href="/projects/" class="nav link"><i class='fas fa-sitemap'></i> Projects</a>
+          
+        
+      
+        
+          
+          
+            <a href="/publications/" class="nav link"><i class='far fa-id-card'></i> Publications</a>
+          
+        
+      
+        
+          
+          
+            <a href="/resume/" class="nav link"><i class='fa fa-quote-left'></i> Resume</a>
+          
+        
+      
+        
+          
+          
+            <a href="/contact/" class="nav link"><i class='far fa-envelope'></i> Contact</a>
+          
+        
+      
+      <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="nav lang-toggle" lang="en">en</a>
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  <menu id="lang-menu" class="flyout-menu menu">
+  <a href="#" lang="en" class="nav link active">English (en)</a>
+  
+      <a href="https://gillichu.github.io/de/" lang="de" class="nav link">Deutsche (de)</a>
+    
+      <a href="https://gillichu.github.io/zh-cn/" lang="zh-cn" class="nav link">中文 (zh-cn)</a>
+    
+      <a href="https://gillichu.github.io/zh-tw/" lang="zh-tw" class="nav link">中文 (zh-tw)</a>
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Hello%21%20I%27m%20Gillian.&amp;url=https%3a%2f%2fgillichu.github.io%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fgillichu.github.io%2f&amp;title=Hello%21%20I%27m%20Gillian." target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <i class="fab fa-linkedin"></i><p>&nbsp;LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by Gillian%20Chu&amp;body=https%3a%2f%2fgillichu.github.io%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" class="hidden-single-column">
+  <a href="/"><img src="https://gillichu.github.io/img/main/gillian2.jpg" class="circle" width="" alt="Hugo Future Imperfect Slim" /></a>
+  <header>
+    <h1>Gillian Chu</h1>
+  </header>
+  <main>
+    <p>gillian.chu@princeton.edu</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+        <li><a href="//github.com/gillichu/" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/gillian-chu" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//instagram.com/gillian.chu" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+<li><a href="//twitter.com/gillianychu" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+<li><a href="//scholar.google.com/citations?user=VHd-JsEAAAAJ%26hl%3den" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a></li>
+<li><a href="//orcid.org/0000-0003-2205-730X" target="_blank" rel="noopener" title="ORCID"><i class="ai ai-orcid"></i></a></li>
+<li><a href="//researchgate.net/profile/Gillian-Chu-2" target="_blank" rel="noopener" title="Research Gate"><i class="ai ai-researchgate"></i></a></li>
+
+
+<li><a href="mailto:gillian.chu@princeton.edu" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article class="post">
+    <header>
+      <div class="title">
+        
+          <h2><a href="/">Hello! I&#39;m Gillian.</a></h2>
+        
+        
+      </div>
+    </header>
+    <div id="content">
+      <h4 id="updates">Updates&hellip;</h4>
+<p>(2022 Aug) I&rsquo;ve moved to Princeton University to do my PhD in Computer Science! Excited to start this next chapter!</p>
+<p>(2022 May) I gave a talk on CNAViz at RECOMB-CCB in San Diego. <a href="presentations/recombccb_cnaviz_051822.pdf">(pdf)</a>. I was also fortunate to win the RECOMB-CCB Scientific Communications lightning talk session in the early graduate section. <a href="presentations/recomb_communication_v2.pdf">(pptx)</a>.</p>
+<p>New paper out on bioRxiv discussing scalable phylogenetic placement methods. You can read it <a href="https://www.biorxiv.org/content/10.1101/2022.05.23.493012v1">here</a>.</p>
+<p>(2022 April) I&rsquo;ve decided to attend Princeton University for my PhD starting this fall.</p>
+<p>(2022 February) Our UPP2 paper is on bioRxiv! Read it <a href="https://www.biorxiv.org/content/10.1101/2022.02.26.482099v1.external-links.html">here</a>.</p>
+<p>(2022 January) Excited that our CNAViz paper is on bioRxiv. You can read it <a href="https://www.biorxiv.org/content/10.1101/2022.01.15.476457v1">here</a>.</p>
+<p>(2021 December) I was accepted to the Genetics Society of America&rsquo;s Presidential Membership Initiative. Read more about this initiative <a href="https://genetics-gsa.org/awards/presidential-membership-initiative/">here</a>.</p>
+<p>(2021 April) National Science Foundation Graduate Fellowship Program (NSF GRFP): I&rsquo;m so grateful to have been awarded this fellowship! You can read more about this program <a href="https://www.nsfgrfp.org/">here</a>.</p>
+<p>(2021 January) I&rsquo;ve officially started at UIUC!</p>
+<p>(2020 September 17) Shield the Bay: Today we were able to finally announce that the Booz Allen Foundation gave us $10,000 from their Innovation Fund. Read more about it <a href="https://boozallenfoundation.org/innovationfund/winners/">here</a>!</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+    </div>
+  </article>
+
+      </main>
+      <section id="site-sidebar">
+  
+
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>Hi, I'm Gillian! I'm a PhD student in Computer Science at Princeton University, specializing in computational biology. I like finding ways to use computer science to solve interesting problems in biology.</p>
+      <footer>
+        <a href="/about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+        <li><a href="//github.com/gillichu/" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/gillian-chu" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//instagram.com/gillian.chu" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+<li><a href="//twitter.com/gillianychu" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+<li><a href="//scholar.google.com/citations?user=VHd-JsEAAAAJ%26hl%3den" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a></li>
+<li><a href="//orcid.org/0000-0003-2205-730X" target="_blank" rel="noopener" title="ORCID"><i class="ai ai-orcid"></i></a></li>
+<li><a href="//researchgate.net/profile/Gillian-Chu-2" target="_blank" rel="noopener" title="Research Gate"><i class="ai ai-researchgate"></i></a></li>
+
+
+<li><a href="mailto:gillian.chu@princeton.edu" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      &copy; 2022
+      
+        Gillian Chu
+      
+    . <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.72.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/js/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.27c5c585d105caa12512c14b955229bf38cc8af5a97a9f6665182cb2bbe1291e.js" integrity="sha256-J8XFhdEFyqElEsFLlVIpvzjMivWpep9mZRgssrvhKR4="></script>
+    <script src="/js/add-on.js"></script>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-MSCKY3XCMZ', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    </div>
+  </body>
+</html>

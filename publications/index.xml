@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Gillian Chu</title>
+    <link>https://gillichu.github.io/publications/</link>
+    <description>Recent content in Publications on Gillian Chu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gillichu.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UPP2</title>
+      <link>https://gillichu.github.io/publications/upp2/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gillichu.github.io/publications/upp2/</guid>
+      <description>UPP2 is a computational improvement on UPP, performing highly accurate and fast multiple sequence alignment.
+Motivation: Multiple sequence alignment (MSA) is a basic step in many bioinformatics pipelines. However, achieving highly accurate alignments on large datasets, especially those with sequence length heterogeneity, is a challenging task. UPP (Ultra-large multiple sequence alignment using Phylogeny-aware Profiles) is a method for MSA estimation that builds an ensemble of Hidden Markov Models (eHMM) to represent an estimated alignment on the full length sequences in the input, and then adds the remaining sequences into the alignment using selected HMMs in the ensemble.</description>
+    </item>
+    
+    <item>
+      <title>CNAViz</title>
+      <link>https://gillichu.github.io/publications/cnaviz/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gillichu.github.io/publications/cnaviz/</guid>
+      <description>CNAViz: User-guided local and global copy-number segmentation for tumor sequencing data
+(In submission)
+Motivation: Copy-number aberrations (CNA) are genetic alterations that amplify or delete the number of copies of large genomic segments. Although they are ubiquitous in cancer and subsequently a critical area of current cancer research, CNA identification from DNA sequencing data is challenging because it requires partitioning of the genome into complex segments that may not be contiguous. Existing segmentation algorithms address these challenges either by leveraging the local information among neighboring genomic regions, or by globally grouping genomic regions that are affected by similar CNAs across the entire genome.</description>
+    </item>
+    
+    <item>
+      <title>ASCEND</title>
+      <link>https://gillichu.github.io/publications/ascend/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gillichu.github.io/publications/ascend/</guid>
+      <description>ASCEND: Inferring the History of Founder Events in Human Populations
+In progress research project. Helped out with an FFT-based calculation of linkage disequilibrium with the goal of detecting ancient founder events. Worked with Priya Moorjani and Remi Tournebize. Currently on bioarxiv, and can be found here!
+ [2020 March] ASCEND: Inferring the History of Founder Events in Human Populations (Remi Tournebize, Gillian Chu, Priya Moorjani)</description>
+    </item>
+    
+    <item>
+      <title>Landscape Aggregation</title>
+      <link>https://gillichu.github.io/publications/aggregation/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gillichu.github.io/publications/aggregation/</guid>
+      <description>MGDrive: Landscape Clustering (NCUR Oral Presentation) (Gillian Chu)
+The idea in this sets of experiments is to understand the differences in dynamics of the spread of gene drives in spatiotemporal landscapes, and how these dynamics are affected when we increase the aggregation (clustering) level of the breeding sites.
+The main goal is to determine a metric of information loss that we can use in the specific context of gene flows in mosquito populations.</description>
+    </item>
+    
+    <item>
+      <title>Sperax</title>
+      <link>https://gillichu.github.io/publications/blockchain/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gillichu.github.io/publications/blockchain/</guid>
+      <description>Sperax: An Approach to Defeat Long Range Attacks in Blockchains
+ [Abstract]
+Since Bitcoin&amp;rsquo;s seminal work of achieving consensus under the assumption that more than 51% computational power is honest, many researchers have proposed various kinds of consensus protocol.s In recent years, there has been a trend in designing proof of stake (PoS) based consensus protocols.
+Unfortunately, PoS based consensus protocols are inherently not secure and are vulnerable to &amp;ldquo;long range attacks&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

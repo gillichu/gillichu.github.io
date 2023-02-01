@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>attacks on Gillian Chu</title>
+    <link>https://gillichu.github.io/tags/attacks/</link>
+    <description>Recent content in attacks on Gillian Chu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gillichu.github.io/tags/attacks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sperax</title>
+      <link>https://gillichu.github.io/publications/blockchain/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gillichu.github.io/publications/blockchain/</guid>
+      <description>Sperax: An Approach to Defeat Long Range Attacks in Blockchains
+ [Abstract]
+Since Bitcoin&amp;rsquo;s seminal work of achieving consensus under the assumption that more than 51% computational power is honest, many researchers have proposed various kinds of consensus protocol.s In recent years, there has been a trend in designing proof of stake (PoS) based consensus protocols.
+Unfortunately, PoS based consensus protocols are inherently not secure and are vulnerable to &amp;ldquo;long range attacks&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
